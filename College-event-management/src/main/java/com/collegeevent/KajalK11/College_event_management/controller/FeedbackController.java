@@ -62,4 +62,4 @@ public class FeedbackController {
         List<Feedback> feedbacks = feedbackService.getFeedbacksByUserId(userId);
         return new ResponseEntity<>(feedbacks, HttpStatus.OK);
     }
-}
+}   
